@@ -1,0 +1,2 @@
+# RecyclearViewAdapterTemplate
+ Recyclear View Template
