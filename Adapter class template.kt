@@ -34,6 +34,7 @@ private val ${Item_Click_Callback_Name}: (${Model_Class}?) -> (Unit),): Recycler
 
     fun submitData(newList: List<${Model_Class}>){
         differ.submitList(newList)
+        notifyDataSetChanged()
     }
 
     inner class ${ViewHolder_Class}
